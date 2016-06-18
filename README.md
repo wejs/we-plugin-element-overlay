@@ -1,6 +1,12 @@
 # We.js overlay element plugin
 
-> Plugin to add the overlay custom elements
+Plugin to add the overlay custom elements
+
+## Installation
+
+```sh
+we i we-plugin-element-overlay
+```
 
 ## Elements
 

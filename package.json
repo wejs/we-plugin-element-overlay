@@ -1,19 +1,17 @@
 {
   "name": "we-plugin-element-overlay",
   "description": "We.js plugin to add the overlay custom element",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "plugin.js",
   "keywords": [
-    "we.js",
-    "wejs",
-    "plugin",
-    "customElement",
-    "clientSide"
+    "wejs-plugin"
   ],
   "author": "Alberto Souza <contato@albertosouza.net>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:wejs/we-plugin-element-overlay.git"
+  "repository": "wejs/we-plugin-element-overlay",
+  "wejs": {
+    "dependencies": {
+      "we-plugin-view": true
+    }
   }
 }
